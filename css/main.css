@@ -9,11 +9,15 @@ body{
 .fa {
     font-size: 25px;
 }
-
+.line-vertical {
+    border-right: 2px solid #555555;
+}
 .page-header h1{
     color: #222;
     text-shadow: 0px 2px 3px #555;
 }
+
+
 #container{
     background-color: #c3ccc9;
     height: 100%;
@@ -22,7 +26,10 @@ body{
 }
 .title-bar{
     background-color: #555555;
+    color: white;
 }
+.grow { transition: all .2s ease; }
+.grow:hover { transform: scale(1.04); }
 
 span.header-tile{
     font-size: 20px;
@@ -55,7 +62,7 @@ span.header-tile{
 
 .tile-div:hover .tile-content{
     opacity: .2;
-    outline: #adadad solid 3px;
+    outline: #555555 solid 3px;
 }
 
 
@@ -94,13 +101,65 @@ span.header-tile{
     background-color: #D24726;
 }
 
-.color-background--green{
+.color-background--green1{
     background-color: #008A00;
 }
+.color-background--green2{
+    background-color: #91D100;
+}
+.color-background--green3{
+    background-color: #439D9A;
+}
+
+.color-background--green4{
+    background-color: #15992A;
+}
+.color-background--green5{
+    background-color: #00C13F;
+}
+.color-background--green6{
+    background-color: #128425;
+}
+
+.color-background--green6{
+    background-color: #3A9548;
+}
+
+
+.color-background--pink1{
+    background-color: #E064B7;
+}
+.color-background--pink2{
+    background-color: #FF76BC;
+}
+.color-background--pink3{
+    background-color: #DE4AAD;
+}
+.color-background--pink4{
+    background-color: #E773BD;
+}
+
+
+
+
+
 .color-background--skyblue{
     background-color: #094AB2;
 }
+
+
 .tile-content{
     height: 200px;
     margin: 2px;
+}
+
+
+#photo-div{
+    display:inline-block;
+    padding-right: 35px;
+}
+
+#info-div{
+    display: inline-block;
+    padding-left: 20px;
 }
